@@ -6,3 +6,9 @@
 ######################################################################
 
 # not_a_user - Admin
+
+polymorphblue - Host
+risingstarslash - Game Admin
+dogzero - Game Admin
+hankwalker - Game Admin
+thatguyfromthatplace - Game Admin

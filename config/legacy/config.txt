@@ -1,6 +1,9 @@
 ## Server name: This appears at the top of the screen in-game. In this case it will read "tgstation: station_name" where station_name is the randomly generated name of the station for the round. Remove the # infront of SERVERNAME and replace 'tgstation' with the name of your choice
 # SERVERNAME spacestation13
 
+## Visible on hub?
+# HUB_VISIBILITY
+
 ## Alert levels
 ALERT_GREEN All threats to the station have passed. Security may not have weapons visible, privacy laws are once again fully enforced.
 ALERT_BLUE_UPTO The station has received reliable information about possible hostile activity on the station. Security staff may have weapons visible, random searches are permitted.
@@ -16,7 +19,7 @@ ADMIN_LEGACY_SYSTEM
 BAN_LEGACY_SYSTEM
 
 ## Add a # here if you wish to use the setup where jobs have more access. This is intended for servers with low populations - where there are not enough players to fill all roles, so players need to do more than just one job. Also for servers where they don't want people to hide in their own departments.
-JOBS_HAVE_MINIMAL_ACCESS
+# JOBS_HAVE_MINIMAL_ACCESS
 
 ## Unhash this entry to have certain jobs require your account to be at least a certain number of days old to select. You can configure the exact age requirement for different jobs by editing
 ## the minimal_player_age variable in the files in folder /code/game/jobs/job/.. for the job you want to edit. Set minimal_player_age to 0 to disable age requirement for that job.
@@ -203,7 +206,7 @@ ALLOW_AI
 # DONT_DEL_NEWMOB
 
 ## set a hosted by name for unix platforms
-HOSTEDBY yournamehere
+HOSTEDBY Crescent Vale 13 
 
 ## Set to jobban "Guest-" accounts from Captain, HoS, HoP, CE, RD, CMO, Warden, Security, Detective, and AI positions.
 ## Set to 1 to jobban them from those positions, set to 0 to allow them.
@@ -226,12 +229,12 @@ GUEST_BAN
 # FORUMURL http://example.com
 
 ## Wiki address
-WIKIURL https://citadel-station.net/wiki_rp/index.php?title=Main_Page
+# WIKIURL https://citadel-station.net/wiki_rp/index.php?title=Main_Page
 
 ## Wiki search path
 ## Set this to whatever path your wiki uses to search for articles
 ## Use %s to mark where the search query should be inserted
-WIKISEARCHURL https://citadel-station.net/wiki_rp/index.php?search=%s&title=Special%3ASearch&go=Go
+# WIKISEARCHURL https://citadel-station.net/wiki_rp/index.php?search=%s&title=Special%3ASearch&go=Go
 
 ## GitHub address
 # GITHUBURL https://github.com/example-user/example-repository
@@ -461,4 +464,4 @@ ENGINE_MAP Supermatter Engine,Edison's Bane
 ## 0 Disables Border Control
 ## 1 Puts Border Control into 'learning mode' and will have it automatically whitelist new connections
 ## 2 Puts Border Control into 'enforcing mode' and will have it deny connections that are not already whitelisted.
-BORDER_CONTROL 0
+BORDER_CONTROL 2
