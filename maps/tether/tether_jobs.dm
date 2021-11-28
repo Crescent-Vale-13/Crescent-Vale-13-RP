@@ -7,6 +7,7 @@
 	sorting_order = -2
 	assignable = FALSE
 	visible = FALSE
+	
 
 /datum/job/talon_captain
 	title = "Talon Captain"
@@ -29,6 +30,7 @@
 	access = list(access_talon)
 	minimal_access = list(access_talon)
 	alt_titles = list("Talon Commander" = /datum/alt_title/talon_commander)
+	whitelist_only = 1 
 
 /datum/alt_title/talon_commander
 	title = "Talon Commander"
@@ -53,6 +55,7 @@
 	access = list(access_talon)
 	minimal_access = list(access_talon)
 	alt_titles = list("Talon Medic" = /datum/alt_title/talon_medic)
+	whitelist_only = 1 
 
 /datum/alt_title/talon_medic
 	title = "Talon Medic"
@@ -78,6 +81,7 @@
 	access = list(access_talon)
 	minimal_access = list(access_talon)
 	alt_titles = list("Talon Technician" = /datum/alt_title/talon_tech)
+	whitelist_only = 1 
 
 /datum/alt_title/talon_tech
 	title = "Talon Technician"
@@ -103,6 +107,7 @@
 	access = list(access_talon)
 	minimal_access = list(access_talon)
 	alt_titles = list("Talon Helmsman" = /datum/alt_title/talon_helmsman)
+	whitelist_only = 1 
 
 /datum/alt_title/talon_helmsman
 	title = "Talon Helmsman"
@@ -128,6 +133,7 @@
 	access = list(access_talon)
 	minimal_access = list(access_talon)
 	alt_titles = list("Talon Security" = /datum/alt_title/talon_security)
+	whitelist_only = 1 
 
 /datum/alt_title/talon_security
 	title = "Talon Security"
